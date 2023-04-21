@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sales Insight Project on Power BI</title>
+    <style>
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<h1>Sales Insight Project on Power BI</h1>
+    <a href="https://github.com/ShivanshPratap/Sales-Insight-Project-on-Power-BI" style="font-size: 28px;">Github link</a>
+    <img src="https://user-images.githubusercontent.com/83840568/233709242-61d0a068-12cd-4fa2-93ad-c947e4b54735.png" alt="">
+    <br>
+    <h1>Business Request & User Stories</h1>
+    <p>The business request for this data analyst project was an executive sales report for sales managers. <br>
+         Based on the request that was made from the business we following user stories were defined to fulfill delivery 
+         and ensure that acceptance criteria’s were maintained throughout the project.</p>
+    <img src="https://user-images.githubusercontent.com/83840568/233709640-8374908f-ba91-4aa9-b8d1-463d8950367b.png" alt="">
+    <h1>Data Cleansing & Transformation (SQL)</h1>
+    <p>To create the necessary data model for doing analysis and fulfilling the business needs defined in the user stories the following tables were extracted using SQL.
+        <br>
+        One data source (sales budgets) were provided in Excel format and were connected in the data model in a later step of the process.
+        <br>
+        Below are the SQL statements for cleansing and transforming necessary data.</p>
+    <h1>DIM_Calendar:</h1>
+    <script src="https://gist.github.com/ShivanshPratap/1d0aa3dec9d6bb72ca667076f3c54011.js"></script>
+    <h1>DIM_Customers:</h1>
+    <script src="https://gist.github.com/ShivanshPratap/bc7be85b4d041eba6a3f618373ff313c.js"></script>
+    <h1>DIM_Products:</h1>    
+    <script src="https://gist.github.com/ShivanshPratap/a8409ec13011bae404dae93d655d3a57.js"></script>
+    <h1>FACT_InternetSales:</h1>
+    <script src="https://gist.github.com/ShivanshPratap/70707f95f04b0345320bf6c9bea0203f.js"></script>
+    <h1>Data Model</h1>
+    <p>Below is a screenshot of the data model after cleansed and prepared tables were read into Power BI.
+        <br>
+        This data model also shows how FACT_Budget hsa been connected to FACT_InternetSales and other necessary DIM tables.</p>
+    <img src="https://user-images.githubusercontent.com/83840568/233712425-6d8e46e6-2977-4275-924e-bbcf93b996fc.png" alt="">  
+    <h1>Sales Management Dashboard</h1>
+    <p>The finished sales management dashboard with one page with works as a dashboard and overview, 
+        with two other pages focused on combining tables for necessary details and visualizations to show sales over time,
+         per customers and per products.</p>
+    <p>Click the picture to to open the dashboard and try it out!</p>  
+    <img src="https://user-images.githubusercontent.com/83840568/233712860-b20b95a0-a5c5-458c-8328-a49fe7389e7c.png" alt="">
+        
+  </body>
+</html>
